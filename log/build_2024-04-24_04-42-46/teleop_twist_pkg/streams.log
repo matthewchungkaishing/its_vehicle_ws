@@ -1,0 +1,24 @@
+[0.356s] Invoking command in '/home/matthew/Workspaces/its_vehicle_ws/src/teleop_twist_pkg': PYTHONPATH=/home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/prefix_override:/home/matthew/Workspaces/its_vehicle_ws/install/teleop_twist_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_pkg build --build-base /home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/build install --record /home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/install.log --single-version-externally-managed install_data
+[0.485s] running egg_info
+[0.486s] writing ../../build/teleop_twist_pkg/teleop_twist_pkg.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ../../build/teleop_twist_pkg/teleop_twist_pkg.egg-info/dependency_links.txt
+[0.487s] writing entry points to ../../build/teleop_twist_pkg/teleop_twist_pkg.egg-info/entry_points.txt
+[0.487s] writing requirements to ../../build/teleop_twist_pkg/teleop_twist_pkg.egg-info/requires.txt
+[0.487s] writing top-level names to ../../build/teleop_twist_pkg/teleop_twist_pkg.egg-info/top_level.txt
+[0.490s] reading manifest file '../../build/teleop_twist_pkg/teleop_twist_pkg.egg-info/SOURCES.txt'
+[0.493s] writing manifest file '../../build/teleop_twist_pkg/teleop_twist_pkg.egg-info/SOURCES.txt'
+[0.493s] running build
+[0.493s] running build_py
+[0.493s] copying teleop_twist_pkg/simple_teleop.py -> /home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/build/lib/teleop_twist_pkg
+[0.493s] running install
+[0.493s] running install_lib
+[0.493s] copying /home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/build/lib/teleop_twist_pkg/simple_teleop.py -> /home/matthew/Workspaces/its_vehicle_ws/install/teleop_twist_pkg/lib/python3.10/site-packages/teleop_twist_pkg
+[0.493s] byte-compiling /home/matthew/Workspaces/its_vehicle_ws/install/teleop_twist_pkg/lib/python3.10/site-packages/teleop_twist_pkg/simple_teleop.py to simple_teleop.cpython-310.pyc
+[0.494s] running install_data
+[0.494s] running install_egg_info
+[0.495s] removing '/home/matthew/Workspaces/its_vehicle_ws/install/teleop_twist_pkg/lib/python3.10/site-packages/teleop_twist_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.495s] Copying ../../build/teleop_twist_pkg/teleop_twist_pkg.egg-info to /home/matthew/Workspaces/its_vehicle_ws/install/teleop_twist_pkg/lib/python3.10/site-packages/teleop_twist_pkg-0.0.0-py3.10.egg-info
+[0.495s] running install_scripts
+[0.509s] Installing simple_teleop script to /home/matthew/Workspaces/its_vehicle_ws/install/teleop_twist_pkg/lib/teleop_twist_pkg
+[0.510s] writing list of installed files to '/home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/install.log'
+[0.527s] Invoked command in '/home/matthew/Workspaces/its_vehicle_ws/src/teleop_twist_pkg' returned '0': PYTHONPATH=/home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/prefix_override:/home/matthew/Workspaces/its_vehicle_ws/install/teleop_twist_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_pkg build --build-base /home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/build install --record /home/matthew/Workspaces/its_vehicle_ws/build/teleop_twist_pkg/install.log --single-version-externally-managed install_data

@@ -20,9 +20,10 @@ class KeyboardTeleop(Node):
         self.listener = Listener(on_press=self.on_key_press, on_release=self.on_key_release)
         self.listener.start()
         # Create a timer to publish Twist messages at regular intervals
-        self.timer = self.create_timer(0.1, self.timer_callback)
+        self.timer = self.create_timer(0.5, self.timer_callback)
 
     def on_key_press(self, key):
+        self.get_logger().info('A Key is Pressed')
         if hasattr(key, 'char') and key.char in key_mapping:
             self.last_key_pressed = key.char
             self.get_logger().info(f'Key pressed: {key.char}')
